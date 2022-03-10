@@ -9,6 +9,33 @@ body {
   background-color: #ffffff;
 }
 
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.mail,
+.tel {
+  color: var(--primary-text-color);
+}
+
+.mail:hover,
+.tel:hover,
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
+}
+
 /* Header */
 
 .logo-half-one {
