@@ -1,0 +1,24 @@
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --hero-adress-title-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* Header */
+
+.logo-half-one {
+  color: var(--accent-color);
+}
+
+.logo-half-two {
+  color: #000;
+}
+
+.list {
+  list-style: none;
+}
