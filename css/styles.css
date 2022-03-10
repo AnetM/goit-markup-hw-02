@@ -1,0 +1,113 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста  #757575;
+ */
+/* белый #E5E5E5  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #2196F3; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-color: #212121;
+  --hero-adress-title-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* Header */
+
+.logo-half-one {
+  color: var(--accent-color);
+}
+
+.logo-half-two {
+  color: #000;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--hero-adress-title-color);
+}
+
+.section.hero {
+  background-color: #2f303a;
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-color);
+}
+.feature-list {
+  list-style: none;
+}
+
+.feature-list .text {
+  color: var(--primary-text-color);
+}
+
+/* Чем мы занимаемся */
+
+.whatwedo-list {
+  list-style: none;
+}
+
+/* Нашы сотрудники */
+
+.employees-section {
+  background-color: #f5f4fa;
+}
+.employees-list {
+  list-style: none;
+}
+
+.employees-list .text {
+  color: var(--primary-text-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.mail,
+.tel {
+  color: var(--primary-text-color);
+}
+
+.mail:hover,
+.tel:hover,
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
+}
+
+/* Button */
+
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
