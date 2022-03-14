@@ -14,9 +14,30 @@
 
 body {
   background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 /* Header */
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
 
 .logo-half-one {
   color: var(--accent-color);
@@ -26,14 +47,54 @@ body {
   color: #000;
 }
 
-.list {
-  list-style: none;
+/* Site nav */
+
+.site-nav .link {
+  color: var(--title-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.mail,
+.tel {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
+.mail:hover,
+.tel:hover,
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
+}
 /* Hero */
 
 .hero-title {
   color: var(--hero-adress-title-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .section.hero {
@@ -50,6 +111,12 @@ body {
 
 .feature-list .title {
   color: var(--title-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
 }
 .feature-list {
   list-style: none;
@@ -69,6 +136,11 @@ body {
 
 .employees-section {
   background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  text-align: center;
 }
 .employees-list {
   list-style: none;
@@ -76,33 +148,7 @@ body {
 
 .employees-list .text {
   color: var(--primary-text-color);
-}
-
-/* Site nav */
-
-.site-nav .link {
-  color: var(--title-color);
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-.site-nav .link.current {
-  color: var(--accent-color);
-}
-
-.mail,
-.tel {
-  color: var(--primary-text-color);
-}
-
-.mail:hover,
-.tel:hover,
-.mail:focus,
-.tel:focus {
-  color: var(--accent-color);
+  font-weight: 400;
 }
 
 /* Button */
@@ -110,4 +156,28 @@ body {
 .button {
   color: #ffffff;
   background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  background-color: #2f303a;
+}
+
+.footer .logo-half-two {
+  color: #ffffff;
+}
+
+.adress.container {
+  color: var(--hero-adress-title-color);
+  font-style: normal;
+
+  font-weight: 400;
+}
+
+.adress a {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
 }
