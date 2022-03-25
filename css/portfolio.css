@@ -3,6 +3,7 @@
   --title-color: #212121;
   --hero-adress-title-color: #ffffff;
   --accent-color: #2196f3;
+  --button-background-color: #f5f4fa;
 }
 
 /* Section */
@@ -18,16 +19,12 @@
 
 .button {
   cursor: pointer;
-  color: var(--title-text-color);
-  background-color: var(--primary-white-color);
+  color: var(--title-color);
+  background-color: var(--button-background-color);
 }
 
-.button.primary {
-  color: var(--primary-white-color);
+.button:hover,
+.button:focus {
+  color: var(--hero-adress-title-color);
   background-color: var(--accent-color);
-}
-
-.button.secondary {
-  color: var(--accent-color);
-  background-color: var(--primary-white-color);
 }

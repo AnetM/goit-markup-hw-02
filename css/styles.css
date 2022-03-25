@@ -129,6 +129,8 @@ h2 {
 /* Чем мы занимаемся */
 
 .whatwedo-list {
+  display: flex;
+  justify-content: center;
   list-style: none;
 }
 
